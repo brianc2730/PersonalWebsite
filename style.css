@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    background-color: #001F3F;
+    border:2px solid white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headerLeft {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+    font-size: 16pt;
+
+}
+
+.headerRight {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: right;
+    font-size: 13pt;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.headerLink {
+    display: inline-block;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: dimgray;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}
+
+.laptopLogo {
+    width: 40px;
+    height: 100%;
+    margin: -13px;
+    padding-right: 15px;
+}
+
+.about {
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 250px;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutImage {
+    height: 300px;
+}
+
+.subtitle {
+    float: right
+}
+
+#about-text {
+    color: white
+}
+
+* {text-decoration: none;}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
